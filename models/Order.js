@@ -1,8 +1,10 @@
-import mongoose from 'mongoose';
+/* This code snippet is defining a Mongoose schema for an order in a MongoDB database. Here's a
+breakdown of what each part is doing: */
+import mongoose from 'mongoose';// import mongoose
 
 const orderSchema = new mongoose.Schema({
-  product: {
-    type: mongoose.Schema.Types.ObjectId,
+  product: { // define the product field
+    type: mongoose.Schema.Types.ObjectId,// set the type to ObjectId
     ref: 'Product',
     required: true,
   },
@@ -12,7 +14,7 @@ const orderSchema = new mongoose.Schema({
   },
   status: {
     type: String,
-    enum: ['pending', 'shipped'],
+    enum: ['pending', 'shipped'], // set the status field to only accept 'pending' or 'shipped'
     default: 'pending',
   },
   createdAt: {
@@ -21,5 +23,5 @@ const orderSchema = new mongoose.Schema({
   },
 });
 
-const Order = mongoose.model('Order', orderSchema);
+const Order = mongoose.model('Order', orderSchema); // create the Order model
 export default Order;

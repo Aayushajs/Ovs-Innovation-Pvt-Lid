@@ -1,12 +1,12 @@
 {
   "name": "backend",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Backend API For a multi-tenant e-commerce system",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "index.js"
+    "dev": " node index.js"
   },
   "keywords": [
     "ovs",
