@@ -23,6 +23,20 @@ Vendors can only access their own data (authorization enforced).
 Validation of input using Joi or express-validator.
 Graceful error responses with appropriate HTTP status codes.
 
+## All API :-
+```
+1)Vondors Registertion:-    https://ovs-innovation-pvt-lid.onrender.com/api/vendors/register
+2)Vondors otp:-             https://ovs-innovation-pvt-lid.onrender.com/api/vendors/verify
+3)Vondors login:-           https://ovs-innovation-pvt-lid.onrender.com/api/vendors/login
+4)products add:-            https://ovs-innovation-pvt-lid.onrender.com/api/products/add
+5)products delete:-         https://ovs-innovation-pvt-lid.onrender.com/api/products/deleteProduct/675ca1ae22d8826fb6fbb42c
+6)get all products:-        https://ovs-innovation-pvt-lid.onrender.com/api/products/getAll
+7)get id by products        https://ovs-innovation-pvt-lid.onrender.com/api/products/getAll/675ca079497ca528e1348d92
+8)Update products:-         https://ovs-innovation-pvt-lid.onrender.com/api/products/updateProduct/675ca079497ca528e1348d92
+9)oders :-                  https://ovs-innovation-pvt-lid.onrender.com/api/orders/Orders
+10)oders Id:-               https://ovs-innovation-pvt-lid.onrender.com/api/orders/Orders/675ca079497ca528e1348d92
+```
+
 ## Instructions to Run the Project Locally
 
 ### Prerequisites
